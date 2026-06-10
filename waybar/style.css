@@ -1,44 +1,57 @@
-window {
-    background-color: #1e1e2e;
-    border-radius: 12px;
-    border: 2px solid #cba6f7;
+* {
+  font-family: 'FiraCode Nerd Font', monospace;
+  font-size: 13px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
 }
 
-#input {
-    background-color: #313244;
-    color: #cdd6f4;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 12px;
-    margin: 8px;
-    font-family: "FiraCode Nerd Font";
-    font-size: 14px;
+#custom-hyperpager {
+  background-color: #313244;
+  color: #6c7086;
+  padding: 0 12px;
+  border-radius: 8px;
+  margin: 4px 6px;
+  font-size: 13px;
+  letter-spacing: 4px;
 }
 
-#input:focus {
-    border: 1px solid #cba6f7;
+window#waybar {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
 }
 
-#inner-box {
-    background-color: #1e1e2e;
+#workspaces button {
+  padding: 0 8px;
+  color: #6c7086;
+  background: transparent;
 }
 
-#outer-box {
-    padding: 8px;
+#workspaces button.active {
+  color: #cba6f7;
+  border-bottom: 2px solid #cba6f7;
 }
 
-#entry {
-    padding: 6px 12px;
-    border-radius: 8px;
-    color: #cdd6f4;
+#clock {
+  color: #89b4fa;
+  padding: 0 10px;
 }
 
-#entry:selected {
-    background-color: #313244;
-    color: #cba6f7;
+#battery {
+  color: #a6e3a1;
+  padding: 0 10px;
 }
 
-#text {
-    font-family: "FiraCode Nerd Font";
-    font-size: 13px;
+#network {
+  color: #94e2d5;
+  padding: 0 10px;
+}
+
+#pulseaudio {
+  color: #f9e2af;
+  padding: 0 10px;
+}
+
+#tray {
+  padding: 0 10px;
 }
